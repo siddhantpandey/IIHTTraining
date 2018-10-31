@@ -1,0 +1,18 @@
+package com.verizon.sta.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.verizon.sta.model.Customer;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

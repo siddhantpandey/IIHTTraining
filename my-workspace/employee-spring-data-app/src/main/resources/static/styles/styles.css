@@ -1,0 +1,57 @@
+* {
+	margin: 10px;
+	padding: 10px;
+}
+
+h1, h2 {
+	border-bottom: 1.5px solid black;
+}
+
+table {
+	min-width: 500px;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  width:100px;
+  height:40px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;  
+  cursor: pointer;
+  outline: none;  
+  box-shadow: 0 9px #999;
+}
+
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

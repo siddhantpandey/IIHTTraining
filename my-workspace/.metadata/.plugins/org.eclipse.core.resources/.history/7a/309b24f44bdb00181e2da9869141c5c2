@@ -1,0 +1,22 @@
+package com.devglan.dao;
+
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.devglan.model.Users;
+
+@Repository
+public interface UsersRepository extends JpaRepository<Users, String>{
+
+	Optional<Users> findById(String userId);
+
+	boolean existsById(String userId);
+
+	void deleteById(String userId);
+
+	Optional<Users> findById(String userId);
+
+}

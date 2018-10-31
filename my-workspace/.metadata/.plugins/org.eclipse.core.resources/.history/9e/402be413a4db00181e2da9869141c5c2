@@ -1,0 +1,12 @@
+package com.verizon.pra.service;
+
+import java.util.List;
+
+import com.verizon.pra.model.User;
+
+public interface UsersService {
+
+	
+	
+	
+}

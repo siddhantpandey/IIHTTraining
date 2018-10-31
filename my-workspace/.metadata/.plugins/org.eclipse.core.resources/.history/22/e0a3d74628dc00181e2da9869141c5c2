@@ -1,0 +1,9 @@
+package com.verizon.pra.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.verizon.pra.model.Statistics;
+
+public interface StatisticsRepository extends JpaRepository<Statistics, Long> {
+
+}

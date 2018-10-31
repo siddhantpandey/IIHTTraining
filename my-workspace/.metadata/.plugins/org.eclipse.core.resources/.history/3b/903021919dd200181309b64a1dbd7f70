@@ -1,0 +1,59 @@
+package com.vcom.model;
+
+import java.time.LocalDate;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+
+@Entity
+@Table(name="servicesbought")
+public class ServicesBought {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private long serviceId;
+	
+	
+	@OneToOne
+	@JoinColumn(name="customerHolderId")
+	private Customer customer;
+	
+	@NotEmpty(message="Service cannot be empty")
+	@Column(name="serviceactivated")
+	private Services services;
+	
+	@NotEmpty(message="Plan cannot be empty")
+	@Column(name="servicetype")
+	private Plans plans;
+	
+	@NotEmpty(message="Package cannot be empty")
+	@Column(name="package")
+	private Packages packages;
+	
+	@DateTimeFormat(iso=ISO.DATE)
+	@NotNull(message="Date Of Birth can not be left blank")
+	@Column(name="doa")
+	private LocalDate dateOfActivation;
+
+	
+	public ServicesBought() {
+		super();
+	}
+
+
+
+	
+	
+	
+}

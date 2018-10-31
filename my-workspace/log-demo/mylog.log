@@ -1,0 +1,10 @@
+18-10-2018 11:43:19 INFO [root] - Preparing For A Date
+18-10-2018 11:43:19 DEBUG [root] - Carrying Credit Cards: YES
+18-10-2018 11:43:19 WARN [root] - Are You Forgetting Something? DEO
+18-10-2018 11:43:19 ERROR [root] - Not Dressed Impressivly
+18-10-2018 11:43:19 FATAL [root] - Lost His/Her Number
+18-10-2018 11:43:19 INFO [Driving] - Preparing For a ride
+18-10-2018 11:43:19 DEBUG [Driving] - Got The Keys? YES
+18-10-2018 11:43:19 WARN [Driving] - Are You Forgetting Soemthing? Helmat
+18-10-2018 11:43:19 ERROR [Driving] - Head Light Functioning Failed
+18-10-2018 11:43:19 FATAL [Driving] - Tank Empty

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EmployeeControllerTest.java&apos; to &apos;spring-junit-demo/src/test/java/com.verizon.sju&apos;&#x0D;&#x0A;- Original project: &apos;spring-junit-demo&apos;&#x0D;&#x0A;- Destination element: &apos;spring-junit-demo/src/test/java/com.verizon.sju&apos;&#x0D;&#x0A;- Original element: &apos;com.verizon.sju.EmployeeControllerTest.java&apos;" description="Copy compilation unit" destination="/src\/test\/java&lt;com.verizon.sju" element1="/src\/test\/java&lt;com.verizon.sju{EmployeeControllerTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1539664633171" units="1" version="1.0"/>
+</session>

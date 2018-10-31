@@ -1,0 +1,13 @@
+package com.verizon.pra.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.verizon.pra.model.User;
+import com.verizon.pra.model.Users;
+
+@Repository
+public interface UsersRepository extends JpaRepository<Users, String> {
+	User findByUName(String username);
+}

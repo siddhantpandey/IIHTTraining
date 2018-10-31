@@ -1,0 +1,21 @@
+package com.vcom.restapi;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.vcom.services.CustomerService;
+import com.vcom.services.ServicesBoughtService;
+
+@RestController
+@CrossOrigin
+@RequestMapping("/customers")
+public class VcomRestApi {
+
+	@Autowired
+	CustomerService custService;
+	
+	@Autowired
+	ServicesBoughtService sbService;
+}

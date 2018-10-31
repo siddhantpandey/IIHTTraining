@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\my-workspace\\proj-spring-app\\.git;D\:\\my-workspace\\spring-employee-rest-api-app\\.git;D\:\\sba3\\.git;C\:\\Users\\verizon20\\Downloads\\.git;
+GitRepositoriesView.GitDirectories.relative=proj-spring-app\\.git;spring-employee-rest-api-app\\.git;D\:\\sba3\\.git;C\:\\Users\\verizon20\\Downloads\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

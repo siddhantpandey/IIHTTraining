@@ -1,0 +1,6 @@
+package com.vcom.model;
+
+public interface Packages {
+
+	R399,R449,
+}

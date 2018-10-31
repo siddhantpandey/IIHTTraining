@@ -1,0 +1,55 @@
+package com.verizon.pra.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.verizon.pra.dao.UserRepository;
+import com.verizon.pra.model.User;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepo;
+	
+	@Override
+	public List<User> getAllUsers() {
+		return userRepo.findAll();
+	}
+
+	@Override
+	public User getUserById(String userId) {
+		User user = null;
+		Optional<User> optUser = userRepo.findById(userId);
+		
+		if(optUser.isPresent())
+			user = optUser.get();
+		return user;
+	}
+
+	@Override
+	public User addUser(User user) {
+		return userRepo.save(user);
+	}
+
+	@Override
+	public User updateUser(User user) {
+		return userRepo.save(user);
+	}
+
+	@Override
+	public boolean deleteUserById(String userId) {
+		boolean isDeleted = false;
+		
+		if(userRepo.existsById(userId)) {
+			userRepo.deleteById(userId);
+			isDeleted = true;
+		}
+		
+		return isDeleted;
+	}
+
+}

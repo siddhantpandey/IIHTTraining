@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="plansService" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="plansServiceMock"/>
+			<item value="custServiceMock"/>
+			<item value="employee"/>
+			<item value="Employee"/>
+			<item value="Emp"/>
+			<item value="emp"/>
+			<item value="Customer"/>
+			<item value="customer"/>
+			<item value="deleted"/>
+			<item value="security"/>
+			<item value="contact"/>
+			<item value="Contact"/>
+			<item value="AddressBook"/>
+			<item value="GENT"/>
+		</list>
+		<list key="replacehistory">
+			<item value="plansService"/>
+			<item value="custService"/>
+			<item value="customer"/>
+			<item value="Customer"/>
+			<item value="Cust"/>
+			<item value="cust"/>
+			<item value="Package"/>
+			<item value="package"/>
+			<item value="employee"/>
+			<item value="Employee"/>
+			<item value="EmployeeRoster"/>
+			<item value="MALE"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="390" key="DIALOG_HEIGHT"/>
+		<item value="506" key="DIALOG_X_ORIGIN"/>
+		<item value="184" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

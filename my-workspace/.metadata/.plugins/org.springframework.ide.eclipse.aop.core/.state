@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-employee-rest-api-app"/>
+<aop-project name="spring-boot-jwt-auth"/>
+<aop-project name="spring-junit-demo"/>
+<aop-project name="spring-test-customer-demo"/>
+</aop-reference-model>

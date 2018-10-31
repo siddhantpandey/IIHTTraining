@@ -1,0 +1,5 @@
+package com.vcom.dao;
+
+public interface ServicesDao {
+
+}

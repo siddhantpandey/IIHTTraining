@@ -1,0 +1,19 @@
+package com.devglan.dao;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.devglan.model.Party;
+
+@Repository
+public interface PartyRepository extends JpaRepository<Party, String> {
+
+	Optional<Party> findById(String partyName);
+
+	boolean existsById(String partyName);
+
+	void deleteById(String partyName);
+	
+}

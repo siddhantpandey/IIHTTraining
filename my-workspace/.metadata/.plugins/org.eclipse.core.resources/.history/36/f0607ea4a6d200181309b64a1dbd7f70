@@ -1,0 +1,16 @@
+package com.vcom.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.vcom.dao.ServicesDao;
+
+@Service
+public class ServicesBoughtServiceImpl implements ServicesBoughtService{
+	
+	@Autowired
+	ServicesDao servicesDao;
+	
+	
+
+}

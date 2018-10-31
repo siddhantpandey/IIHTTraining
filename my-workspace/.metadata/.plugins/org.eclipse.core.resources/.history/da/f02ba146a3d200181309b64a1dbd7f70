@@ -1,0 +1,5 @@
+package com.vcom.services;
+
+public interface ServicesBoughtService {
+
+}
